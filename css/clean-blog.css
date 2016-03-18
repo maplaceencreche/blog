@@ -10,7 +10,7 @@ body {
   color: #404040;
 }
 p {
-  line-height: 1.5;
+  line-height: 1.8;
   margin: 30px 0;
 }
 p a {
@@ -24,6 +24,8 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
+  line-height: 1.3em;
+  margin: 50px 0 30px;
 }
 a {
   color: #404040;
@@ -37,8 +39,14 @@ a img:focus {
   cursor: zoom-in;
 }
 blockquote {
+  margin: 40px 0;
   color: #808080;
   font-style: italic;
+}
+blockquote p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1.2em
 }
 hr.small {
   max-width: 100px;
@@ -46,6 +54,14 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+ul li{
+  line-height: 1.5;
+  margin: 10px 0
+}
+p img{
+  margin: 50px 0
+}
+
 .navbar-custom {
   background: white;
   position: absolute;
