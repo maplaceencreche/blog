@@ -54,11 +54,11 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
-ul li{
+.container ul li{
   line-height: 1.5;
   margin: 10px 0
 }
-p img{
+.container p img{
   margin: 50px 0
 }
 
