@@ -1,7 +1,8 @@
 'use strict';
 
-jQuery(document).ready(function () {
+$(function () {
   var submitURL = $('#btn-inscript').attr('href');
+  console.log(submitURL);
 
   $('#agreed').change(function () {
     if ($(this).is(':checked')) {
