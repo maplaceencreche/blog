@@ -1,6 +1,7 @@
 'use strict';
 
-$(function () {
+$.noConflict();
+jQuery(document).ready(function ($) {
   var submitURL = $('#btn-inscript').attr('href');
   console.log(submitURL);
 
