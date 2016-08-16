@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
 
   $('#agreed').change(function () {
     if ($(this).is(':checked')) {
-      $('#btn-inscript').attr('href', submitURL + '&mpec_agree=true');
+      $('#btn-inscript').attr('href', submitURL + '?mpec_agree=true');
     } else {
       $('#btn-inscript').attr('href', submitURL);
     }
